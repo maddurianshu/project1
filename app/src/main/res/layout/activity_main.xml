@@ -10,14 +10,14 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="290dp"
-        android:layout_height="60sp"
+        android:layout_width="295dp"
+        android:layout_height="43dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="49dp"
         android:layout_marginBottom="52dp"
         android:ems="10"
         android:inputType="text"
-        android:text="NayaN Welcomes You"
+        android:text="Welcome to Nayan App"
         android:textColor="@color/mycolor"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextText2"
@@ -32,10 +32,11 @@
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="45dp"
         android:ems="10"
-        android:hint="type your name "
+        android:hint="@string/hint_name"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumberPassword"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
@@ -44,10 +45,10 @@
         android:layout_width="292dp"
         android:layout_height="0dp"
         android:layout_marginTop="230dp"
-        android:layout_marginEnd="47dp"
+        android:layout_marginEnd="48dp"
         android:layout_marginBottom="203dp"
         android:ems="10"
-        android:hint="type your pin"
+        android:hint="@string/Hint_for_pin"
         android:inputType="numberPassword"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +65,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword"
-        app:layout_constraintVertical_bias="0.921" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button2"
