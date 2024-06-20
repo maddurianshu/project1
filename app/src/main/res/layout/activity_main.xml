@@ -55,7 +55,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="@dimen/my_btn_width"
-        android:layout_height="49dp"
+        android:layout_height="44dp"
         android:layout_marginStart="2dp"
         android:layout_marginBottom="364dp"
         android:text="LOGIN"
@@ -63,13 +63,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.921" />
 
     <Button
         android:id="@+id/button2"
         android:textColor="@color/white"
         android:layout_width="@dimen/my_btn_width"
-        android:layout_height="49dp"
+        android:layout_height="44dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="47dp"
         android:text="CANCEL"
