@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="my_btn_width">112dp</dimen>
+    <dimen name="my_hgt">120dp</dimen>
+    <dimen name="txt_size">111sp</dimen>
+
 
 </resources>
