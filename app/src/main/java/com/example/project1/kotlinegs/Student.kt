@@ -7,7 +7,7 @@ class Student {
         this.address = address
     }
 
-    var name: String? = null
-    var age: Int = 0
-    var address: String? = null
+    var name: String? = "Seethamshu"
+    var age: Int = 12
+    var address: String? = "Hyderabad"
 }
