@@ -56,6 +56,7 @@
 
     <Button
         android:id="@+id/button"
+        android:onClick="myclickhandler"
         android:layout_width="@dimen/my_btn_width"
         android:layout_height="44dp"
         android:layout_marginStart="2dp"
